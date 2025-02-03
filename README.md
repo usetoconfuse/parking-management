@@ -10,7 +10,7 @@ Each vehicle has the following attributes:
 - A character specifying the vehicle type from 5 types: [C]ar, [M]otorcycle, [V]an, [L]orry, [B]us
 - A registration number of the form XX00XXX (all letters are capitals)
 - A location string whose characters can be letters, numbers or periods, maximum length 11 characters.
-- A status which is either PD (Paid) or NPD(Not Paid). Arriving vehicles have NPD by default.
+- A status which is either PD (Paid) or NPD (Not Paid). Arriving vehicles have NPD by default.
 - An entry timestamp of the form HHMM using 24-hour time, e.g 1426
 - An exit timestamp of the same form, only if the vehicle has PD status
 
