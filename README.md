@@ -3,6 +3,7 @@
 *This program was designed for an Arduino UNO Rev3 equipped with an Adafruit RGB LCD Shield, which provides a 16x2 LCD display and several buttons.*
 
 This C++ program manages cars in a car park. It tracks vehicles as they arrive, pay and leave different locations.
+The list of active vehicles is hard-coded to store up to 15 vehicles. Storing more risks exceeding the Rev3's 2KB SRAM during operation.
 
 ### Vehicles
 
