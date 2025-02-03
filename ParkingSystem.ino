@@ -301,7 +301,7 @@ bool SelectHeld() {
       lcd.clear();
       lcd.setBacklight(5);
       lcd.setCursor(0, 0);
-      lcd.print(F("F319706 "));
+      lcd.print(F("FREEMEM "));
       lcd.print(freeMemCpy);
       lcd.print(F(" B"));
       selectHeld = true;
